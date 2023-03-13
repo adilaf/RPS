@@ -14,7 +14,26 @@
         <span class="dot">P</span>
         <span class="dot">S</span>
       </p>
+      
     <a class="instruction" href="https://wrpsa.com/the-official-rules-of-rock-paper-scissors/">RULES</a>
+    <script>
+      /* This is a simplified version of the game.
+      The Computer ALWAYS picks ROCK.  
+      Does the user's choose win,lose, or tie vs ROCK? */
+      function play(user) {
+          let result = "";
+          if (user === 'rock') {
+              result = "tie";
+          }
+          if (user === 'paper') {
+              result = "win";
+          }
+          if (user === 'scissors') {
+              result = "lose";
+          }
+          alert("Computer chose rock, you " + result + "!");
+      }
+    </script>
   </body>
 
 </html>
