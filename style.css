@@ -11,8 +11,7 @@ body{
 .dot {
     background-color: red;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    padding: 5px 20px;
     font-size: 65px;
     text-align: center;
   }
@@ -20,3 +19,5 @@ body{
 .dot:hover {
     background-color: grey;
 }
+
+.instruction { }
