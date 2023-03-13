@@ -13,7 +13,10 @@ body{
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    display: inline-block;
     font-size: 65px;
     text-align: center;
   }
+
+.dot:hover {
+    background-color: grey;
+}
