@@ -5,35 +5,19 @@
     <meta charset="UTF-8">
     <title>Rock, Paper, Scissors</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="script" type="text/js" href="script.js">
   </head>
 
   <body>
     <h1>Rock, Paper or Scissors?</h1>
       <p> 
-        <span class="dot">R</span>
+        <span class="dot" onclick="play">R</span>
         <span class="dot">P</span>
         <span class="dot">S</span>
       </p>
       
     <a class="instruction" href="https://wrpsa.com/the-official-rules-of-rock-paper-scissors/">RULES</a>
-    <script>
-      /* This is a simplified version of the game.
-      The Computer ALWAYS picks ROCK.  
-      Does the user's choose win,lose, or tie vs ROCK? */
-      function play(user) {
-          let result = "";
-          if (user === 'rock') {
-              result = "tie";
-          }
-          if (user === 'paper') {
-              result = "win";
-          }
-          if (user === 'scissors') {
-              result = "lose";
-          }
-          alert("Computer chose rock, you " + result + "!");
-      }
-    </script>
+
   </body>
 
 </html>
