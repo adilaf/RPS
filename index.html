@@ -29,7 +29,12 @@
           if (user === 'scissors') {
               result = "lose";
           }
-          alert("Computer chose rock, you " + result + "!");
+      }
+
+        function say(myMessage){
+          var theMessage = ("Computer chose rock, you " + result + "!"); 
+          alert(theMessage);
+          say(theMessage);
       }
     </script>
   </body>
