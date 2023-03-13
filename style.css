@@ -1,5 +1,4 @@
 body{
-    align-content: center;
     margin:0, auto;
     margin-top: 40px;
     padding: 25px;
@@ -13,8 +12,7 @@ body{
     background-color: red;
     color:white;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    padding: 5px 20px;
     font-size: 65px;
 }
 
