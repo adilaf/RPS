@@ -18,6 +18,11 @@
     <a class="instruction" href="https://wrpsa.com/the-official-rules-of-rock-paper-scissors/">RULES</a>
     
     <script>
+        function say(myMessage){
+          var msg = new SpeechSynthesisUtterance(myMessage);
+          window.speechSynthesis.speak(msg);
+
+
         function play(user) {
           let result = "";
           if (user === 'rock') {
@@ -31,7 +36,6 @@
           }
       }
 
-        function say(myMessage){
           var theMessage = ("Computer chose rock, you " + result + "!"); 
           alert(theMessage);
           say(theMessage);
